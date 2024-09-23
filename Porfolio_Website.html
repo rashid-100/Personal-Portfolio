@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="Portfolio_Website.css">
+</head>
+
+<body>
+
+
+    <!-- CREATED BY: Rashid Ali -->
+
+
+    <!-- Navbar  -->
+    <nav>
+        <a href="#" class="logo">Rashid</a> 
+        <div class="toggle" onclick="toggleMenu()"></div>
+
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#About" onclick="toggleMenu()">About</a></li>
+            <li><a href="#Service" onclick="toggleMenu()">Service</a></li>
+            <li><a href="#Work" onclick="toggleMenu()">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Hey! I am <br>Rashid <span> Ali</span><br> Web Developer</h1>
+            <a href="#">Hire me</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/me.png" alt="">
+            <img src="img/pattern.png" class="pattern">
+        </div>
+
+        <div class="social-links">
+            <img src="img/facebook-icon.png" alt="">
+            <img src="img/linkedin-icon.png" alt="">
+            <img src="img/twitter-icon.png" alt="">
+        </div>
+    </section>
+
+    
+    <!-- About Section -->
+    <section class="about" id="About">
+        <div class="heading">
+            <h2>About</h2>
+            <p style="color:black">My Introduction</p>
+        </div>
+
+        <div class="about-content">
+            <div class="about-img">
+                <img src="img/me3.png" alt="">
+            </div>
+
+            <div class="about-text">
+                <h1>I'm Rashid</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius nemo minus ad delectus, expedita sed iure quisquam facere et pariatur velit id fugiat, omnis perferendis atque assumenda nam labore! Asperiores recusandae, ut modi blanditiis veritatis aperiam fuga similique eligendi atque, nisi harum cumque ex minus, quam ducimus laudantium hic ipsam cupiditate officia sequi consequuntur ipsa. Eligendi, repellendus! Beatae, corrupti iste!</p>
+                <a href="#">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+    <section class="service" id="Service">
+        <div class="heading">
+            <h2>Service</h2>
+            <p>Services We Offer,</p>
+        </div>
+
+        <div class="service-content">
+            <div class="box">
+                <img src="img/cube.png" alt="">
+                <h1>Html Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium iusto earum ducimus.</p>
+            </div>
+            <div class="box">
+                <img src="img/cube.png" alt="">
+                <h1>Html Project</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium iusto earum ducimus.</p>
+            </div>
+            <div class="box">
+                <h1>Html Project</h1>
+                <img src="img/cube.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium iusto earum ducimus.</p>
+            </div>
+            <div class="box">
+                <h1>Html Project</h1>
+                <img src="img/cube.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium iusto earum ducimus.</p>
+            </div>
+            <div class="box">
+                <h1>Html Project</h1>
+                <img src="img/cube.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium iusto earum ducimus.</p>
+            </div>
+            <div class="box">
+                <h1>Html Project</h1>
+                <img src="img/cube.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium iusto earum ducimus.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORK SECTION -->
+    <section class="work" id="Work">
+        <div class="heading">
+            <h2>Work</h2>
+            <p>Work with Us</p>
+        </div>
+
+        <div class="work-content">
+            <div class="work-text">
+                <h1>We beleieve To Deliever Best <br> Quality Work</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio numquam odio dolores, eligendi totam quia harum ipsa magni aperiam adipisci? Necessitatibus, vel eos. Quae eligendi voluptatum corrupti sapiente, quo quas. Porro, quas?</p>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="work-img">
+                <img src="img/pexels-steve-johnson-9999715.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+
+    <section id="contact" class="Contact">
+        <div class="heading color">
+            <h2>Contact</h2>
+            <p>Leave a messege we will try to reply in 24 hours.</p>
+        </div>
+
+        <div class="contact-content">
+            <div class="app">
+                <h1>Connect With Us <br> By our Apps</h1>
+                <img src="img/facebook-icon.png" alt="">
+                <img src="img/linkedin-icon.png" alt="">
+            </div>
+
+            <div class="contact-form">
+                <form action="">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your messege here..."></textarea>
+
+                    <input type="button" class="contact-btn" value="Send">
+                </form>
+            </div>
+        </div>
+        
+       
+    </section>
+
+    <!-- Copy Right -->
+    <div class="copyright">
+        <p>&#169; CarpoolVenom All Rights Reserved</p>
+    </div>
+</body>
+
+<script>
+    // Navbar
+    function toggleMenu(){
+        var toggleBtn = document.querySelector(".toggle");
+        var menu = document.querySelector(".menu");
+
+        toggleBtn.classList.toggle("active");
+        menu.classList.toggle("active");
+    }
+</script>
+</html>
